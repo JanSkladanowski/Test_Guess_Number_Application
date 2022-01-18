@@ -2,13 +2,12 @@ import unittest
 from selenium import webdriver
 import page
 import random
-from selenium.webdriver.support.color import Color
 
 
-class TestScenario1(unittest.TestCase):
+class TestScenario3(unittest.TestCase):
 
     def setUp(self):
-        self.driver = webdriver.Chrome(r"D:\Nowy folder\moje\programowanie\seleniumDr\97.0.4692.71\chromedriver.exe")
+        self.driver = webdriver.Chrome(r"PATH TO DRIVER")
         self.driver.get(r"http://127.0.0.1:5500/index.html")
 
     def test_lost(self):
